@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
@@ -38,7 +40,7 @@ const members = [
   {
     fullName: 'Mohib',
     flipNote:
-      'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
+      'J money!!! Thanks for being you— I love your energy and you made something truly incredible happen this week. I hope this is the start, not end, of our friendship :-)',
     imageName: 'mohib_j.jpeg',
   },
   {
@@ -81,7 +83,7 @@ const members = [
     fullName: 'Nicole',
     flipNote:
       'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
-    imageName: 'jepson.jpg',
+    imageName: 'nico.jpg',
   },
   {
     fullName: 'Jepson',
@@ -103,10 +105,6 @@ const members = [
   },
 ];
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
 export default function HomePage() {
   return (
     <Layout>
@@ -125,7 +123,11 @@ export default function HomePage() {
               with you. <br /> WAGMI!
             </h2>
 
-            <div className='mt-8 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-48'>
+            <div className='mx-auto mt-4 w-3/5'>
+              <img src='/images/nft.jpg' alt='NFT' />
+            </div>
+
+            <div className='mt-20 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-48'>
               {members.map((member, idx) => {
                 return (
                   <MemberCard
