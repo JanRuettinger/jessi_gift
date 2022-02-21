@@ -29,7 +29,10 @@ export default function MemberCard({
         flipSpeedBackToFront={1}
         flipSpeedFrontToBack={1}
       >
-        <div className='h-[400px] w-[400px]' onClick={handleClick}>
+        <div
+          className='h-[300px] w-[300px] md:h-[400px] md:w-[400px]'
+          onClick={handleClick}
+        >
           <Image
             src={`/images/${imageName}`}
             alt='Member image'
@@ -41,7 +44,7 @@ export default function MemberCard({
         <div>
           <div
             onClick={handleClick}
-            className='flex h-[400px] w-[400px] flex-col items-center justify-center'
+            className='flex h-[300px] w-[300px] flex-col items-center justify-center md:h-[400px] md:w-[400px]'
           >
             <div>{flipNote}</div>
           </div>

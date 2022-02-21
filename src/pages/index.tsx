@@ -51,7 +51,7 @@ const members = [
     fullName: 'Lucia',
     flipNote:
       'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
-    imageName: 'Lucia.jpeg',
+    imageName: 'lucia.jpeg',
   },
   {
     fullName: 'Miguel',
