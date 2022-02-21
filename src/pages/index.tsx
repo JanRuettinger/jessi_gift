@@ -18,6 +18,12 @@ const members = [
     imageName: 'michaella.jpg',
   },
   {
+    fullName: 'Avi',
+    flipNote:
+      'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
+    imageName: 'avi.jpg',
+  },
+  {
     fullName: 'Jan',
     flipNote:
       'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
