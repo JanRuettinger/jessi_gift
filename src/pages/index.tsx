@@ -8,7 +8,7 @@ const members = [
   {
     fullName: 'Jan',
     flipNote:
-      'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
+      'The last two weeks have been magical! This is what I expect Bell Labs was like back in the day. Thank you so much Jessi for bringing us all together.',
     imageName: 'jan_rue.jpg',
   },
   {
@@ -26,7 +26,7 @@ const members = [
   {
     fullName: 'Jan',
     flipNote:
-      'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum',
+      'Thank you Jessi for bringing us all together. This community feels like my new home in Web 3.',
     imageName: 'jan_damm.jpeg',
   },
   {
