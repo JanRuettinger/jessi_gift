@@ -41,6 +41,10 @@
       U+2215, U+FEFF, U+FFFD;
   }
 
+  .card-item-witdth {
+    width: 10rem;
+  }
+
   .cursor-newtab {
     cursor: url('/images/new-tab.png') 10 10, pointer;
   }
